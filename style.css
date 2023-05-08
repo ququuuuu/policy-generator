@@ -1,0 +1,62 @@
+body {
+  padding: 1rem;
+}
+.generator {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+.generator__questions {
+  display: flex;
+  flex-flow: column wrap;
+  flex: 1;
+}
+.generator__questions label {
+  margin-bottom: 0.25rem;
+}
+.generator__questions input {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+}
+.generator__questions input#youtubeVID {
+  width: 200px;
+}
+.generator__questions input#headline,
+.generator__questions input#blurb {
+  width: 270px;
+}
+.generator__questions button {
+  margin-top: 1rem;
+  max-width: 200px;
+  border: 1px solid #27ae60;
+  background: #2ecc71;
+  padding: 1rem;
+  color: #ecf0f1;
+  font-size: 16px;
+  border-radius: 4px;
+}
+.generator__questions button:hover {
+  background: #27ae60;
+}
+.generator__markup {
+  flex: 1;
+  max-width: 50%;
+}
+.generator__markup pre code {
+  background-color: #eee;
+  border: 1px solid #999;
+  display: block;
+  padding: 20px;
+  overflow: auto;
+}
+button {
+  height: 30px;
+  width: 150px;
+  border-radius: 3px;
+  padding: 10px;
+  font-size: 18px;
+  font-family:;
+  height: 52px;
+  cursor: pointer;
+  background-color: #2ecc71;
+}
